@@ -1,26 +1,42 @@
 [
   {
-    "company": "Demo Company",
-    "role": "Lead Software Engineer",
-    "period": "Oct 2025 - Present",
-    "type": "Full time job",
-    "description": "Leading cross-platform mobile development using Flutter and FastAPI. Focused on scalable system design and high-performance data processing.",
-    "skills": ["Leading", "Collaboration"]
-  },
-  {
-    "company": "Demo Company",
-    "role": "Full-stack Developer",
-    "period": "Sep 2023 - Sep 2025",
-    "type": "Full time job",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
-  },
-  {
-    "company": "Demo University of Tech",
-    "role": "BSc in Computer Science",
-    "period": "Jun 2020 - Jun 2024",
+    "company": "Seneca Polytechnic",
+    "role": "Master's in Artificial Intelligence Design and Development",
+    "period": "Jan 2026 - Present",
     "type": "Student",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["C++", "OOP", "Problem Solving"]
+    "description": "Applying Artificial Intelligence principles to real world problems. Engaging in projects and courses focused on ML, NLP, Computer Vision and Deep Learning applications.",
+    "skills": ["Python", "Data Science", "Research", "AI/ML"]
+  },
+  {
+    "company": "Polaron Solar Energy",
+    "role": "Frontend Developer",
+    "period": "April 2025 - December 2025",
+    "type": "Full time contract",
+    "description": "Built responsive, high performance web solutions for Polaron Solar's marketing team. Delivered measurable impact across the stack from optimizing Core Web Vitals by 50% and cutting deployment times by 40 minutes, to integrating CMS, CRM, and analytics tools and mentoring junior developers.",
+    "skills": ["Next.js", "WordPress", "Figma", "TypeScript", "GSAP", "Framer Motion"]
+  },
+  {
+    "company": "Ministry of Public and Business Service Delivery and Procurement",
+    "role": "Application Developer",
+    "period": "August 2023 - April 2025",
+    "type": "Full time internship",
+    "description": "Designed accessible, responsive UIs for ServiceOntario portals, ensuring compliance with WCAG 2.0 and AODA standards. Spearheaded the Ontario Design System React component library adopted by internal teams, while contributing to Figma wireframing, and frontend refactoring.",
+    "skills": ["React & TypeScript", "Figma & UI/UX Wireframing", "Accessibility (WCAG 2.0 & AODA)", "Cross-functional Collaboration", "Storybook"]
+  },
+  {
+    "company": "SilverPonies Web Inc.",
+    "role": "Web Developer",
+    "period": "July 2022 - September 2023",
+    "type": "Part time",
+    "description": "Optimized performance and developed UI features across Shopify and WordPress sites for eCommerce clients, improving Core Web Vitals by ~20% and doubling homepage load speed. Led a major homepage redesign, from strategy and stakeholder alignment to mentoring a junior developer, directly improving customer retention.",
+    "skills": ["Shopify", "WordPress", "Liquid", "Performance Optimization (Core Web Vitals)", "Technical Leadership & Mentorship"]
+  },
+  {
+    "company": "University of Toronto",
+    "role": "BASc in Electrical Engineering",
+    "period": "Sept 2014 - July 2020",
+    "type": "Student",
+    "description": "Specialized in Power Electronics and Control Systems. Taken courses in Software Design, OOP, and Data Structures/Algorithms.",
+    "skills": ["C++", "OOP", "Computer Architecture", "Problem Solving"]
   }
 ]
