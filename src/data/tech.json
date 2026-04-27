@@ -1,35 +1,50 @@
 {
   "categories": [
     {
-      "title": "Mobile Development",
+      "title": "Data Science/Machine Learning",
       "skills": [
-        { "name": "Flutter", "level": 3, "icon": "skill-icons:flutter-dark" },
-        { "name": "Dart", "level": 3, "icon": "skill-icons:dart-dark" },
-        { "name": "Kotlin", "level": 1, "icon": "skill-icons:kotlin-dark" }
+        { "name": "Anaconda", "level": 3, "icon": "skill-icons:anaconda-dark" },
+        { "name": "Pandas", "level": 2, "icon": "skill-icons:python-dark" },
+        { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" },
+        { "name": "Scikit-learn", "level": 2, "icon": "skill-icons:scikitlearn-dark" }
       ]
     },
     {
       "title": "Frontend",
       "skills": [
-        { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
-        { "name": "HTML", "level": 2, "icon": "skill-icons:html" },
-        { "name": "CSS", "level": 2, "icon": "skill-icons:css" },
-        { "name": "Tailwind CSS", "level": 1, "icon": "skill-icons:tailwindcss-dark" }
+        { "name": "Figma", "level": 3, "icon": "skill-icons:figma-dark" },
+        { "name": "HTML", "level": 3, "icon": "skill-icons:html" },
+        { "name": "CSS", "level": 3, "icon": "skill-icons:css" },
+        { "name": "JavaScript", "level": 3, "icon": "skill-icons:javascript" },
+        { "name": "Tailwind CSS", "level": 3, "icon": "skill-icons:tailwindcss-dark" },
+        { "name": "React", "level": 2, "icon": "skill-icons:react-dark" },
+        { "name": "Next.js", "level": 2, "icon": "skill-icons:nextjs-dark" },
+        { "name": "TypeScript", "level": 2, "icon": "skill-icons:typescript" },
+        { "name": "Gatsby", "level": 2, "icon": "skill-icons:gatsby" },
+        { "name": "Astro", "level": 1, "icon": "skill-icons:astro" }
       ]
     },
     {
       "title": "Backend",
       "skills": [
-        { "name": "FastAPI", "level": 2, "icon": "skill-icons:fastapi" },
-        { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" },
-        { "name": "Firebase", "level": 3, "icon": "vscode-icons:file-type-firebase" }
+        { "name": "Express", "level": 2, "icon": "skill-icons:fastapi" },
+        { "name": "node.js", "level": 2, "icon": "skill-icons:nodejs-dark" },
+        { "name": "Ruby", "level": 2, "icon": "skill-icons:ruby" },
+        { "name": "Rails", "level": 2, "icon": "skill-icons:rails" }
       ]
     },
     {
       "title": "Database",
       "skills": [
-        { "name": "SQLite", "level": 3, "icon": "skill-icons:sqlite" },
-        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" }
+        { "name": "SQLite", "level": 2, "icon": "skill-icons:sqlite" },
+        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" },
+        { "name": "mongoDB", "level": 1, "icon": "skill-icons:mongodb" }
+      ]
+    },
+    {
+      "title": "Mobile Development",
+      "skills": [
+        { "name": "React Native", "level": 2, "icon": "skill-icons:flutter-dark" }
       ]
     }
   ]
