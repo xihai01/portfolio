@@ -1,20 +1,47 @@
 [
   {
-    "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
+    "title": "NS Roofer",
+    "description": "Crafted a Gatsby marketing site for a local roofing company with fresh new UI/UX and ClickUp CRM integration. Deployed on Netlify.",
+    "images": ["nsroofer.webp", "nsroofer-main.webp"],
+    "tech": ["Gatsby", "Tailwind CSS", "Figma"],
     "platforms": ["web"],
-    "link": "https://astro.build/themes/details/career-portfolio-data-driven-astro-ssg/",
-    "category": "Published Website"
+    "link": "https://nsroofer.com/",
+    "category": "Professional Work"
   },
   {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
+    "title": "Polaron Solar Energy",
+    "description": "Migrated Polaron's main website from WordPress to Next.js. Implemented eye catching, smooth animations using GSAP and Framer Motion.",
+    "images": ["polaron.webp", "polaron-main.webp"],
+    "tech": ["Next.js", "WordPress", "Framer Motion"],
+    "platforms": ["web"],
+    "link": "https://polaronsolar.com/",
+    "category": "Professional Work"
+  },
+  {
+    "title": "Catch",
+    "description": "An upcoming mobile app built for time commerce. Allows users, businesses and AI agents to connect and transact in real time.",
+    "images": ["catch.png", "catch-main.png"],
+    "tech": ["React Native", "Express", "Prisma"],
     "platforms": ["apple-ios", "android"],
-    "link": "https://github.com/nbakh16/career-portfolio-template",
-    "category": "Hobby"
+    "link": "https://www.catchapp.ca/",
+    "category": "Personal Project"
+  },
+  {
+    "title": "Canadian Labour Demand Forecasting",
+    "description": "A data science project utilizing time series analysis and machine learning techniques to provide insights for job seekers and policymakers.",
+    "images": ["canada.png", "trend.webp"],
+    "tech": ["Pandas", "Python", "Time Series Analysis"],
+    "platforms": ["chart-multiple"],
+    "link": "https://medium.com/@xihai.luo01/can-job-postings-predict-labour-demand-heres-what-we-found-2a381dece631",
+    "category": "Personal Project"
+  },
+  {
+    "title": "SMS Integration",
+    "description": "Integrated Twilio API into a staff management portal for a non-profit organization so 1,000+ staff members could receive SMS notifications.",
+    "images": ["CASA_horz_logo.webp", "classic-logo.webp"],
+    "tech": ["Ruby on Rails", "PostgreSQL", "Twilio API"],
+    "platforms": ["web"],
+    "link": "https://github.com/rubyforgood/casa/issues/1017",
+    "category": "Open Source Contribution"
   }
 ]

@@ -10,7 +10,7 @@ import projectsData from '../data/projects.json';
           <span class="text-accent">/</span> Featured Projects
         </h2>
       <p class="text-subtext font-body text-sm max-w-md">
-        A selection of professional work, published apps, and experimental prototypes.
+        A selection of professional work, projects, and open source contributions.
       </p>
     </div>
 
@@ -50,38 +50,38 @@ import projectsData from '../data/projects.json';
   const initProjectReveal = () => {
     const header = document.querySelector('.project-header');
     const cards = document.querySelectorAll('.project-card');
-    
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           const target = entry.target as HTMLElement;
-          
+
           // Check if the intersecting element is the header
           if (target.classList.contains('project-header')) {
             target.classList.add('reveal');
             observer.unobserve(target);
-          } 
+          }
           // Check if the intersecting element is a project card
           else if (target.classList.contains('project-card')) {
             const index = Array.from(cards).indexOf(target);
-            
+
             // Stagger effect based on row position (only for cards)
             setTimeout(() => {
               target.classList.add('reveal');
             }, (index % 3) * 150);
-            
+
             observer.unobserve(target);
           }
         }
       });
-    }, { 
-      threshold: 0.15, 
-      rootMargin: '0px 0px -10px 0px' 
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -10px 0px'
     });
 
     // Observe the header
     if (header) observer.observe(header);
-    
+
     // Observe all cards
     cards.forEach(card => observer.observe(card));
   };
